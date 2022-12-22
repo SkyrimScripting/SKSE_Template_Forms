@@ -1,6 +1,6 @@
 > 📜 other templates available at https://github.com/SkyrimScripting/SKSE_Templates
 
-# SKSE - writing to log files
+# SKSE - working with Forms (game objects)
 
 A simple SKSE plugin for Skyrim using:
 
@@ -13,15 +13,12 @@ A simple SKSE plugin for Skyrim using:
 
 ### What does it do?
 
-It writes to a log file.
-
-Read [`plugin.cpp`](plugin.cpp) for a bunch of details on what it's doing!
-
-I *highly recommend* you create a log file for your mod.
-
-It's useful for:
-- your own debugging, while developing the mod
-- debugging issues from your users (**ask your users to provide .log files in their bug reports on Nexus/GitHub!**)
+It has a few examples including:
+- Lookup form by Form ID
+- Lookup form by Editor ID
+- Cast form to specific type via `.As<T>` or `skyrim_cast`
+- Loop through all items in the game of a certain form type, e.g. food/potions (`AlchemyItem`)
+- Loop through all items in the game
 
 ## Requirements
 
