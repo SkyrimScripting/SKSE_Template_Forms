@@ -2,6 +2,14 @@
 
 # SKSE - working with Forms (game objects)
 
+- [SKSE - working with Forms (game objects)](#skse---working-with-forms-game-objects)
+    - [What does it do?](#what-does-it-do)
+  - [Requirements](#requirements)
+  - [Project setup](#project-setup)
+  - [Setup your own repository](#setup-your-own-repository)
+
+---
+
 A simple SKSE plugin for Skyrim using:
 
 - C++
